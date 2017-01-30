@@ -13,6 +13,14 @@ app.config(function($routeProvider){
     .when("/about", {
         templateUrl: "./templates/about.html",
         controller: "HomeController"
+    })
+    .when("/auto", {
+        templateUrl: "./templates/main.html",
+        controller: "AutoController"
+    })
+    .when("/portraits", {
+        templateUrl: "./templates/main.html",
+        controller: "PortraitController"
     });
 
 

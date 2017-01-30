@@ -1,21 +1,61 @@
-angular.module("SpragueApp")
-
-.controller("LandArtController", ["$scope", function($scope){
-    $scope.test = "yo dawg";
-    console.log("yeah youre hitting the controller");
-    $scope.photos = [
-        {
-            title: "neon",
-            imgUrl: "https://static.wixstatic.com/media/0f24e8_0ac0b2d21c0244689db74e40e7e7ed8c~mv2_d_2380_1522_s_2.jpg/v1/fill/w_796,h_509,al_c,q_90,usm_0.66_1.00_0.01/0f24e8_0ac0b2d21c0244689db74e40e7e7ed8c~mv2_d_2380_1522_s_2.webp"
-        },
-        {
-            title: "pour",
-            imgUrl: "https://static.wixstatic.com/media/0f24e8_60bc56a7d706434d874d2d84774caf65~mv2_d_4928_3264_s_4_2.jpg/v1/fill/w_796,h_527,al_c,q_90,usm_0.66_1.00_0.01/0f24e8_60bc56a7d706434d874d2d84774caf65~mv2_d_4928_3264_s_4_2.webp"
-        },
-        {
-            title: "aesthetic",
-            imgUrl: "https://static.wixstatic.com/media/0f24e8_27183c11731f4ddf832ea34aa6aef98e~mv2_d_4928_3264_s_4_2.jpg/v1/fill/w_796,h_527,al_c,q_90,usm_0.66_1.00_0.01/0f24e8_27183c11731f4ddf832ea34aa6aef98e~mv2_d_4928_3264_s_4_2.webp"
-        }
-    ];
-
-}]);
+angular.module("SpragueApp").controller("LandArtController", [
+    "$scope",
+    function($scope) {
+        $scope.photos = [
+            {
+                title: "land1",
+                imgUrl: "../images/Landscapes/1.jpg",
+                carouselIndex: 1
+            }, {
+                title: "land2",
+                imgUrl: "../images/Landscapes/2.jpg",
+                carouselIndex: 2
+            }, {
+                title: "land3",
+                imgUrl: "../images/Landscapes/3.jpg",
+                carouselIndex: 3
+            }, {
+                title: "land4",
+                imgUrl: "../images/Landscapes/4.jpg",
+                carouselIndex: 4
+            }, {
+                title: "land5",
+                imgUrl: "../images/Landscapes/5.jpg",
+                carouselIndex: 5
+            }, {
+                title: "land6",
+                imgUrl: "../images/Landscapes/6.jpg",
+                carouselIndex: 6
+            }, {
+                title: "land7",
+                imgUrl: "../images/Landscapes/7.jpg",
+                carouselIndex: 7
+            }, {
+                title: "land8",
+                imgUrl: "../images/Landscapes/8.jpg",
+                carouselIndex: 8
+            }, {
+                title: "land9",
+                imgUrl: "../images/Landscapes/9.jpg",
+                carouselIndex: 9
+            }, {
+                title: "land10",
+                imgUrl: "../images/Landscapes/10.jpg",
+                carouselIndex: 10
+            }, {
+                title: "land11",
+                imgUrl: "../images/Landscapes/11.jpg",
+                carouselIndex: 11
+            }, {
+                title: "land12",
+                imgUrl: "../images/Landscapes/12.jpg",
+                carouselIndex: 12
+            }, {
+                title: "land13",
+                imgUrl: "../images/Landscapes/13.jpg",
+                carouselIndex: 13
+            }
+        ];
+$('.carousel').carousel({interval: 5000});
+    }
+]);
