@@ -1,10 +1,18 @@
 #sv-brand {
-    padding-top: 3em;
+    margin-top: 1em;
     padding-left: 1.5em;
 }
 
 i {
     color: black;
+}
+
+.nav {
+    margin-bottom 0;
+}
+
+.fa-4x {
+    margin: 0.1em;
 }
 
 #brand-title {
@@ -27,20 +35,6 @@ i {
     max-height: 650px;
 }
 
-@media (min-width: 768px) {
-    .navbar {
-        padding-left: 0 !important;
-        float: left !important;
-        z-index: 3 !important;
-    }
-    #bio {
-        max-width: 600px;
-        margin: auto;
-        padding-top: 2em;
-        padding-bottom: 2em;
-    }
-}
-
 #bio {
     display: block !important;
     padding-top: -0.5em;
@@ -57,7 +51,6 @@ i {
     max-width: 50%;
     display: inline;
     padding-top: 1em;
-    padding-bottom: 1em;
 }
 
 .footer-right {
@@ -71,9 +64,15 @@ i {
     margin-bottom: 0.5rem;
 }
 
+#about-icons {
+    margin: auto;
+}
 @media (max-width: 576px) {
     .footer-left {
         display: none !important;
+    }
+    .carousel-inner {
+        max-height: 300px;
     }
 }
 
@@ -81,5 +80,24 @@ i {
     .navfix {
         margin-top: 0em;
         margin-bottom: 3.5em;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        padding-left: 0 !important;
+        float: left !important;
+        z-index: 3 !important;
+    }
+    #bio {
+        max-width: 600px;
+        margin: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+@media (min-width: 990px) {
+    .carousel-inner {
+        min-height: 600px;
     }
 }
