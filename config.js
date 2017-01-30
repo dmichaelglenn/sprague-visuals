@@ -6,9 +6,9 @@ app.config(function($routeProvider){
         templateUrl: "./templates/main.html",
         controller: "HomeController"
     })
-    .when("#portraits", {
-        templateUrl: "./templates/login.html",
-        controller: "PortraitController"
+    .when("/landscape", {
+        templateUrl: "./templates/main.html",
+        controller: "LandArtController"
     })
     .when("/about", {
         templateUrl: "./templates/about.html",

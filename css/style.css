@@ -19,16 +19,22 @@ i {
     color: #7a5b6f;
 }
 
+.d-block {
+    margin: auto;
+}
+
+.carousel-inner {
+    max-height: 650px;
+}
+
 @media (min-width: 768px) {
     .navbar {
         padding-left: 0 !important;
         float: left !important;
+        z-index: 3 !important;
     }
 }
 
-.carousel-inner {
-    max-height: 600px !important;
-}
 
 .carousel-item.active,
 .carousel-item-next,

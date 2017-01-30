@@ -1,0 +1,23 @@
+<div>
+<div id="carouselExampleIndicators" class="carousel slide carousel-fixes" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" target="_self" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" target="_self" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" target="_self" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <!-- <div class="carousel-item active">
+            <img class="d-block img-fluid img-responsive" src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/16252092_1622923204683533_2526921655489765742_o.jpg?oh=2f288388c5c33857c9bf628735673077&oe=5905A71C"
+                alt="camera">
+        </div> -->
+        <div class="carousel-item" ng-repeat="photo in photos" ng-class="{active : $first}">
+            <img class="d-block img-fluid" ng-src={{photo.imgUrl}}
+                alt="pour">
+        </div>
+        <!-- <div class="carousel-item">
+            <img class="d-block img-fluid" src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/15799919_1613903398918847_7150149405032176831_o.jpg?oh=b2a144e111fc824d8e13c03fe14b8274&oe=590239AD"
+                alt="aesthetic">
+        </div> -->
+    </div>
+</div>
+</div>
