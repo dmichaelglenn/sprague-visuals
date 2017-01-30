@@ -1,0 +1,69 @@
+#sv-brand {
+    padding-top: 3em;
+    padding-left: 1.5em;
+}
+
+i {
+    color: black;
+}
+
+#brand-title {
+    color: black;
+}
+
+#first-link {
+    padding-left: -0.1em !important;
+}
+
+#mg-link {
+    color: #7a5b6f;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        padding-left: 0 !important;
+        float: left !important;
+    }
+}
+
+.carousel-inner {
+    max-height: 600px !important;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: block;
+}
+
+.footer {
+    min-width: 50%;
+    max-width: 50%;
+    display: inline;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.footer-right {
+    float: right;
+    text-align: right;
+    display: inline !important;
+}
+
+#footer-blurb {
+    font-size: 0.7em;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 576px) {
+    .footer-left {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .navfix {
+        margin-top: 0em;
+        margin-bottom: 3.5em;
+    }
+}
