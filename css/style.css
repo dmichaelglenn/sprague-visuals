@@ -33,8 +33,18 @@ i {
         float: left !important;
         z-index: 3 !important;
     }
+    #bio {
+        max-width: 600px;
+        margin: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
 }
 
+#bio {
+    display: block !important;
+    padding-top: -0.5em;
+}
 
 .carousel-item.active,
 .carousel-item-next,

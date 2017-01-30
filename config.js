@@ -12,7 +12,7 @@ app.config(function($routeProvider){
     })
     .when("/about", {
         templateUrl: "./templates/about.html",
-        controller: "AboutController"
+        controller: "HomeController"
     });
 
 
